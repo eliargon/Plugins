@@ -1,0 +1,96 @@
+{
+  "name": "eliargon/Plugins",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "",
+  "branch": "",
+  "style": {
+    "name": "Future",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/BannerHeader",
+      "article": "article/BasicArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "\"Avenir Next\", Helvetica, sans-serif",
+    "heading": {
+      "fontWeight": 500,
+      "textTransform": "uppercase",
+      "letterSpacing": "0.2em"
+    },
+    "alternativeText": {
+      "textTransform": "uppercase",
+      "fontWeight": 400,
+      "letterSpacing": "0.2em",
+      "opacity": 0.75
+    },
+    "colors": {
+      "text": "#333",
+      "background": "#fff",
+      "primary": "#666",
+      "secondary": "#888",
+      "highlight": "#1f80ff",
+      "muted": "#f6f6f6",
+      "border": "#eee"
+    },
+    "layout": {
+      "centered": true,
+      "maxWidth": 1024,
+      "bannerHeight": "80vh"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "http://idangero.us",
+          "text": "Home"
+        },
+        {
+          "href": "https://github.com/eliargon/Plugins",
+          "text": "GitHub"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "Plugins",
+      "subhead": "iDangero.us Scripts & Plugins",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "Plugins: iDangero.us Scripts & Plugins",
+          "url": "http://idangero.us"
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "eliargon",
+          "repo": "Plugins"
+        }
+      ]
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "<h1>iDangero.us Scripts &amp; Plugins</h1>\n<p>This repository contains all iDangero.us scripts &amp; plugins (formerly paid and premium). Now they all are free. Each folder contains script/plugin&apos;s documentation and required source files</p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/eliargon/Plugins",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/eliargon",
+          "text": "eliargon"
+        }
+      ]
+    }
+  ]
+}
